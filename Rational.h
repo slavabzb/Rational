@@ -217,4 +217,10 @@ std::ostream& operator<< ( std::ostream& stream, const Rational< Rep >& rational
   return stream;
 }
 
+
+
+typedef Rational< int > rational_t;
+
+
+
 #endif // RATIONAL_H
